@@ -1,0 +1,236 @@
+@media screen and (max-width: 800px) {  
+    * {
+        font-family: 'Signika Negative', sans-serif;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-image: url("../image/back.jpg");
+        height: auto;
+    }
+    
+    ul, li {
+        display: block;
+    }
+    
+    .hide {
+        display: none;
+    }
+    
+    .window {
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        margin: 0 auto 0 auto;
+        border-radius: 6px;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.2);
+    }
+    
+    .MainTitle {
+        display: none;
+        /* width: 45%;
+        height: 100%;
+        background: linear-gradient(to right, rgb(0, 174, 255) 0%, rgb(0, 129, 250) 100%);
+        position: absolute;
+        text-align: center;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+        transition: all .4s; */
+    }
+    
+    .MainTitle h2 {
+        font-size: 2em;
+    }
+    
+    .MainTitle p {
+        width: 100%;
+        margin: 0 auto;
+        font-weight: 300;
+        margin-top: 15px;
+    }
+    
+    .MainTitle button {
+        margin-top: 20px;
+        padding: 10px 35px;
+        border-radius: 100px;
+        border: none;
+        outline: none;
+        border: 1px solid #fff;
+        color: #fff;
+        background: none;
+        font-size: 1em;
+        cursor: pointer;
+        transition: all .3s;
+    }
+    
+    .MainTitle button:hover {
+        background: #fff;
+        color: rgb(0, 174, 255);
+    }
+    
+    .LoginForm {
+        background: #fff;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all .4s;
+    }
+    
+    .FormOne {
+        text-align: center;
+    }
+    
+    .FormOne h2 {
+        font-size: 2em;
+        color: rgba(224,58,69,1);
+    }
+    
+    .FormOne ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .FormOne ul li {
+        width: 50px;
+        height: 50px;
+        background: rgba(233,233,233);
+        border-radius: 50px;
+        margin: 10px 10px 0 10px;
+    }
+    
+    .FormOne ul li a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .FormOne ul li:nth-child(1) {
+        background-image: url('');
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .FormOne ul li:nth-child(1) {
+        background-image: url('');
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .FormOne ul li:nth-child(1) {
+        background-image: url('');
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .FormOne p {
+        color: #000;
+        margin-top: 30px;
+    }
+    
+    .FormOne form {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+     .pe {
+        font-size: 12px;
+        margin-left: auto;
+        outline: none;
+    }
+    
+    .r-button {
+        display: block;
+    }
+    
+    .FormOne form input[type="button"] {
+        background: rgb(0, 174, 255);
+        color: #fff;
+        width: 60%;
+        border-radius: 100px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    .FormOne form input[name='username'] {
+        width: 110%;
+        height: 35px;
+        background: rgba(204,204,204);
+        border: none;
+        outline: none;
+        margin-bottom: 15px;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    .FormOne form input[name='password'] {
+        width: 110%;
+        height: 35px;
+        background: rgba(204,204,204);
+        border: none;
+        outline: none;
+        margin-bottom: 15px;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    .FormOne form input[name='phone'] {
+        width: 110%;
+        height: 35px;
+        background: rgba(204,204,204);
+        border: none;
+        outline: none;
+        margin-bottom: 15px;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    .FormOne form input[name='save'],input[name='login'] {
+        width: 110%;
+        height: 35px;
+        background: rgba(204,204,204);
+        border: none;
+        outline: none;
+        margin-bottom: 15px;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    .FormOne form input[name="save"] {
+        color: #fff;
+        width: 60%;
+        border-radius: 100px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    /* INPUT CHECKBOX */
+    /* input[type="checkbox"] {
+        display : none;
+    }
+    input[type="checkbox"] + label:before {
+        background-color: white;
+        border: 5px solid #ccc;
+        content: "";
+        display: inline-block;
+        font-size: 20px;
+        height: 20px;
+        width: 20px;
+        line-height: 20px;
+        margin: 5px 6px; 0 0 ;
+        vertical-align:middle;
+        text-align:center;
+    }
+    input[type="checkbox"]:checked + label:before {
+        content:"\2713";
+        color: #00f;
+    } */
+}
